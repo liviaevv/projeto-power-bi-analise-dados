@@ -6,42 +6,54 @@ Analisar o desempenho do SAC e identificar padrões relacionados ao volume de ch
 
 ## 🗂️ Sobre o projeto
 
-Este projeto consiste no desenvolvimento de um dashboard de atendimento ao cliente utilizando o Power BI.
+Este projeto apresenta um dashboard desenvolvido no Power BI para análise de dados de atendimento ao cliente, utilizando uma base de dados em Excel.
 
-A análise foi estruturada para acompanhar indicadores relacionados ao volume de atendimentos, tempo de resposta, tempo de atendimento, cancelamentos e distribuição dos chamados por problema e por atendente.
+A análise contempla o período de **2023 a 2025** e foi estruturada para acompanhar indicadores de volume, tempo de resposta, tempo de atendimento, cancelamentos e distribuição dos chamados.
 
-O projeto foi desenvolvido como prática de análise e visualização de dados, com foco na aplicação dos recursos do Power BI para transformar dados de atendimento em informações visuais e facilitar a interpretação dos principais indicadores.
+O projeto foi desenvolvido como prática de análise e visualização de dados, aplicando recursos do Power BI para transformar dados de atendimento em indicadores e visualizações que facilitam a interpretação dos resultados.
 
 ## 🛠️ Ferramentas utilizadas
 
-* **Power BI**: criação do dashboard, indicadores e visualizações
-* **Excel**: fonte de dados utilizada no projeto
+- **Power BI**: modelagem, criação de medidas, KPIs e visualizações
+- **Excel**: fonte de dados utilizada no projeto
 
-## 📈 Indicadores analisados
+## 📈 Principais indicadores
 
-* Total de atendimentos
-* Tempo médio de resposta em dias
-* Tempo médio de atendimento em minutos
-* Média diária de chamados
-* Percentual de chamados cancelados
+O dashboard apresenta os seguintes indicadores:
+
+| Indicador | Resultado |
+|---|---:|
+| Total de atendimentos | ~12 mil |
+| Tempo médio de resposta | 2,26 dias |
+| Tempo médio de atendimento | 5,63 min |
+| Média diária de chamados | 10,96 |
+| Chamados cancelados | 19,36% |
 
 ## 🔎 Análises realizadas
 
 ### Evolução dos atendimentos
 
-Análise do volume de chamados ao longo do tempo, permitindo observar a variação dos atendimentos durante o período analisado.
+Análise do volume de atendimentos ao longo do período de 2023 a 2025, permitindo acompanhar a variação mensal dos chamados.
 
 ### Tempo médio de atendimento
 
-Acompanhamento da evolução mensal do tempo médio necessário para concluir os atendimentos.
+Acompanhamento da evolução mensal do tempo médio de atendimento, possibilitando observar o comportamento desse indicador ao longo do período analisado.
 
 ### Atendimentos por problema
 
-Distribuição dos chamados de acordo com o tipo de problema reportado, permitindo identificar quais categorias apresentam maior volume de ocorrências.
+Distribuição dos chamados de acordo com os problemas reportados.
+
+Entre as categorias com maior volume de atendimentos estão:
+
+- Recursos não disponíveis
+- Emitir certificado
+- Conexão lenta
+- Dúvidas/Outros
+- Página indisponível
 
 ### Atendimentos por atendente
 
-Análise da distribuição dos atendimentos entre os profissionais responsáveis pelo SAC.
+Análise da distribuição dos atendimentos entre os profissionais responsáveis pelo SAC, permitindo comparar o volume de chamados atendidos por cada colaborador.
 
 ## 🖼️ Dashboard
 
@@ -56,26 +68,10 @@ dashboard-sac-power-bi/
 │   └── Base SAC.xlsx
 │
 ├── images/
-│   └── Plano de Fundo.png
+│   ├── Plano de Fundo.png
+│   └── dashboard-sac.png
 │
 ├── relatorio sac.pbix
 │
 └── README.md
-```
 
-## 💡 Principais aprendizados
-
-* Desenvolvimento de dashboards no Power BI
-* Criação e organização de indicadores de desempenho
-* Construção de visualizações para análise de dados
-* Análise temporal de indicadores
-* Segmentação de dados por categorias e responsáveis
-* Transformação de dados em informações visuais para análise
-
-## 🚀 Próximos passos
-
-Como evolução do projeto, podem ser incorporados novos indicadores, filtros e análises para aprofundar a avaliação do desempenho do atendimento.
-
----
-
-**Projeto desenvolvido para prática e desenvolvimento de habilidades em análise e visualização de dados com Power BI.**
