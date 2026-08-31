@@ -45,7 +45,7 @@ Análise da distribuição dos atendimentos entre os profissionais responsáveis
 
 ## 🖼️ Dashboard
 
-*Imagem do dashboard será adicionada posteriormente.*
+![Dashboard SAC](images/dashboard-sac.png)
 
 ## 📁 Estrutura do projeto
 
